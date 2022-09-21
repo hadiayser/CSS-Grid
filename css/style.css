@@ -26,12 +26,17 @@ nav {
     padding: 2rem;
 }
 
+<<<<<<< HEAD
 #front-page-container {
+=======
+#front-page-container{
+>>>>>>> 555823ab4ed318424f66606de4ee26d4297f5d04
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     /*grid-template-areas: "header header header" 
+<<<<<<< HEAD
                         "main main aside"
                         "footer footer footer";
 
@@ -51,29 +56,100 @@ header {
 main {
     /* grid-area: main*/
     grid-column-gap: 1;
+=======
+                        "main main aside" 
+                        "footer footer footer";
+    grid-gap: 1rem;
+    grid-row-gap: 1rem;*/
+
+}
+header{
+    /*grid-area: header;*/
+    grid-area: 1/1/2/4;
+}
+main{
+    /*grid-area: main;*/
+    grid-column-start: 1;
+>>>>>>> 555823ab4ed318424f66606de4ee26d4297f5d04
     grid-row-start: 2;
     grid-column-end: 3;
     grid-row-end: 3;
 
+<<<<<<< HEAD
 
 }
 
 aside {
     /* grid-area: aside*/
+=======
+    display: grid;
+    grid-template-areas: "col-1 col-2 col-3";
+    justify-content: space-evenly;
+}
+
+#article-1{
+    /*
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 2;
+
+    /*kunne og skrevet: 
+    grid-area: col-1;
+    */
+    grid-area: 1/1/2/2;
+
+}
+#article-2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 2;
+
+    /*kunne og skrevet: 
+    grid-area: col-2;
+    */
+    
+}
+#article-3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-column-end: 4;
+    grid-row-end: 2;
+    
+    /*kunne og skrevet: 
+    grid-area: col-3;
+    */
+
+}
+
+aside{
+    /*grid-area: aside;*/
+>>>>>>> 555823ab4ed318424f66606de4ee26d4297f5d04
     grid-column-start: 3;
     grid-row-start: 2;
     grid-column-end: 4;
     grid-row-end: 3;
+<<<<<<< HEAD
 
 
 }
 
 footer {
     /*grid-area: footer*/
+=======
+}
+footer{
+    /*grid-area:footer;*/
+>>>>>>> 555823ab4ed318424f66606de4ee26d4297f5d04
     grid-column-start: 1;
     grid-row-start: 3;
     grid-column-end: 4;
     grid-row-end: 4;
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 555823ab4ed318424f66606de4ee26d4297f5d04
 
 
 }
